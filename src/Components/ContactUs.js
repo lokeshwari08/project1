@@ -23,11 +23,11 @@ export const ContactUs = () => {
               className="contact-link"
             >
               <FaEnvelope className="icon" />
-              yourgmail@gmail.com
+              lokeshwariloki0804@gmail.com
             </a>
 
             <a
-              href="https://www.linkedin.com/in/yourlinkedinprofile"
+              href="https://www.linkedin.com/in/lokeshwari-m-800127293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank"
               rel="noopener noreferrer"
               className="contact-link"
@@ -39,13 +39,14 @@ export const ContactUs = () => {
 
           {/* Resume Download Button */}
           <a
-            href="/resume.pdf"  // keep your resume in public folder as resume.pdf
-            download
-            className="resume-btn"
-          >
-            <FaDownload className="icon" />
-            Download Resume
-          </a>
+  href="/Assets/lokeshwari_M.pdf"
+  download
+  className="resume-btn"
+>
+  <FaDownload className="icon" />
+  Download Resume
+</a>
+
         </div>
 
         {/* ================= RIGHT SECTION ================= */}
