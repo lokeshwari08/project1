@@ -39,7 +39,7 @@ export const ContactUs = () => {
 
           {/* Resume Download Button */}
           <a
-  href="/Assets/lokeshwari_M.pdf"
+  href="/Assets/lokeshwariM.pdf"
   download
   className="resume-btn"
 >
