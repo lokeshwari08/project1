@@ -1,0 +1,82 @@
+.welcome-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f4f5f2, #afbae7);
+}
+
+/* Small notification-like box */
+.welcome-box {
+  text-align: center;
+  background: rgb(111, 61, 228);
+  color: #1d1b1b;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  animation: popIn 0.8s ease;
+}
+
+/* Title glow effect */
+.welcome-box h2 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #348073;
+  animation: glow 1.5s infinite alternate;
+}
+
+/* Paragraph styling */
+.welcome-box p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+/* Pop-in animation */
+@keyframes popIn {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Glow animation for title */
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #e7082d, 0 0 10px #da773e;
+  }
+  to {
+    text-shadow: 0 0 15px #0b110c, 0 0 20px #ca5865;
+  }
+}
+/* Title text */
+.welcome-box h2 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #f7b5d0;
+}
+
+/* Animated paragraphs */
+.welcome-box p {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: #3a035f;
+  animation: fadeInOut 5.5s infinite;
+}
+/* Infinite fade in/out for text */
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

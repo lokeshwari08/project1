@@ -1,0 +1,158 @@
+/* ===============================
+   Homepage.css
+   Styling for your Homepage
+   =============================== */
+
+/* Main container for the whole homepage */
+.homepage {
+  max-width: 900px; /* keeps content from stretching too wide */
+  margin: 50px auto; /* top & bottom = 50px, left & right = auto (centers the box) */
+  padding: 20px; /* space inside the box */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* clean font */
+  line-height: 1.7; /* more spacing between lines for readability */
+  color: #333; /* dark gray text */
+}
+
+/* Main heading (title of your homepage) */
+.homepage h1 {
+  text-align: center; /* centers the heading */
+  font-size: 2.4rem; /* makes it big */
+  color: #004aad; /* blue color text */
+  margin-bottom: 18px; /* adds space below the heading */
+}
+
+/* Intro paragraph (about you) */
+.intro {
+  font-size: 1.05rem; /* slightly bigger text than normal */
+  margin-bottom: 18px; /* space below the paragraph */
+  text-align: justify; /* spreads text evenly across the line (like newspaper) */
+}
+
+/* Skills section container (list of your skills) */
+.skills {
+  list-style: none; /* removes default bullets */
+  padding: 0; /* removes default padding */
+  display: grid; /* creates a grid layout */
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
+  /* auto-fit → fits items automatically
+     minmax(180px, 1fr) → each skill box is minimum 180px, max expands equally */
+  gap: 10px; /* space between skill boxes */
+  margin-bottom: 28px; /* space below the whole section */
+}
+
+/* Each single skill box */
+.skills li {
+  background: #f4f7fb; /* light background color */
+  padding: 10px; /* space inside the box */
+  border-left: 4px solid #004aad; /* blue left border as accent */
+  border-radius: 6px; /* rounded corners */
+  transition: transform 0.18s ease, background 0.18s ease; 
+  /* smooth animation when hovered */
+}
+
+/* When mouse hovers over a skill */
+.skills li:hover {
+  transform: translateX(5px); /* moves the box 5px to the right */
+  background: #e9f1ff; /* changes background to lighter blue */
+}
+
+/* Education section container */
+.education {
+  background: #fff8f2; /* light cream background */
+  border-left: 4px solid #004aad; /* blue accent bar on left */
+  padding: 16px; /* space inside the box */
+  border-radius: 8px; /* rounded corners */
+  margin-bottom: 24px; /* space below the section */
+}
+
+/* Education section heading */
+.education h2 {
+  color: #004aad; /* blue text color */
+  margin-bottom: 12px; /* space below the heading */
+}
+
+/* Remove default list style inside education */
+.education ul {
+  list-style: none; /* no bullets */
+  padding: 0; /* no padding */
+  margin: 0; /* no margin */
+}
+
+/* Each education item */
+.education li {
+  margin-bottom: 8px; /* space between items */
+  font-size: 1rem; /* normal readable size */
+}
+
+/* Project section container */
+.project {
+  background: #ffffff; /* white background */
+  border: 1px solid #e6e6e6; /* light gray border */
+  padding: 18px; /* space inside the box */
+  border-radius: 10px; /* rounded corners */
+  border-left: 4px solid #004aad; /* blue accent bar on left */
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.06); 
+  /* subtle shadow to make it look like a card */
+  margin-bottom: 24px; /* space below the section */
+}
+
+/* Project section heading */
+.project h2 {
+  color: #004aad; /* blue text */
+  margin-bottom: 12px; /* space below heading */
+  border-bottom: 2px solid #004aad; /* blue underline effect */
+  display: inline-block; /* underline only under text */
+  padding-bottom: 4px; /* space between text and underline */
+}
+
+/* Project description text */
+.project p {
+  font-size: 1rem; /* normal readable size */
+  margin-bottom: 10px; /* space below the paragraph */
+}
+/* ===============================
+   Strength Section Styling
+   =============================== */
+.strength {
+ background: #ffffff; /* white background */
+  border: 1px solid #e6e6e6; /* light gray border */
+  padding: 18px; /* space inside the box */
+  border-radius: 10px; /* rounded corners */
+  border-left: 4px solid #004aad; /* blue accent bar on left */
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.06);
+  margin-bottom: 24px; 
+  /* subtle shadow to make it look like a card */
+}
+
+/* Strength heading */
+.strength h2 {
+    color: #004aad; /* blue text */
+  margin-bottom: 12px; /* space below heading */
+  border-bottom: 2px solid #004aad; /* blue underline effect */
+  display: inline-block; /* underline only under text */
+  padding-bottom: 4px; /* space between text and underline */
+}
+
+/* Strength list */
+.strength ul {
+  list-style: none; /* remove default bullets */
+  padding: 0; /* remove default padding */
+  margin: 0; /* remove default margin */
+}
+
+/* Each strength item */
+.strength li {
+  margin-bottom: 8px; /* space between each strength */
+  font-size: 1rem; /* normal readable size */
+  background: #f4f7fb; /* light background like skills */
+  padding: 10px; /* spacing inside */
+  border-left: 4px solid #004aad; /* small green accent only for strength */
+  border-radius: 6px; /* rounded corners */
+  transition: transform 0.18s ease, background 0.18s ease;
+}
+
+/* Hover effect */
+.strength li:hover {
+  transform: translateX(5px); /* slide effect */
+  background: #e9f1ff; /* light hover background */
+}
