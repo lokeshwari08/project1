@@ -66,16 +66,35 @@ function Homepage() {
       {/* 10) Project section: describe your team role and what the project does */}
       <section className="project">
         <h2>Project</h2>
-        <p>
-          I worked on an <strong>Attendance Management System</strong> as part of a team.
-          My role was <strong>Tester</strong>: I performed testing, suggested improvements,
-          and prepared the project presentation (PPT).
-        </p>
-        <p>
-          The system allows professors to mark attendance and (one-time) correct mistaken entries.
-          Students can sign in and view their attendance percentage. The system is useful,
-          user-friendly, and efficient.
-        </p>
+       <p>
+    I worked on an <strong>Attendance Management System</strong> as part of a team.  
+    My role was <strong>Tester</strong>, where I was responsible for performing testing, suggesting improvements, 
+    and preparing the project presentation (PPT).
+  </p>
+
+  <p>
+    The system enables professors to mark attendance and make a one-time correction if a mistaken entry occurs.  
+    Students can log in to view their attendance percentage. The application was designed to be useful, 
+    user-friendly, and efficient.
+  </p>
+
+  <p>
+    During testing, I identified a usability gap: staff members had no option to correct mistakes 
+    if they accidentally selected the wrong attendance status.  
+    I suggested adding a controlled <strong>"Change Marked Attendance"</strong> option, allowing staff to update 
+    their marked attendance when necessary. This improvement:
+  </p>
+
+  <ul>
+    <li>Reduces errors in attendance records</li>
+    <li>Improves staff flexibility while maintaining accountability</li>
+    <li>Enhances the overall user experience</li>
+  </ul>
+
+  <p>
+    My team lead reviewed and accepted the suggestion, and the feature was successfully implemented 
+    into the application.
+  </p>
       </section>
   
     </div>
