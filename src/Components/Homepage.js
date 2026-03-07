@@ -96,6 +96,23 @@ function Homepage() {
     into the application.
   </p>
       </section>
+      {/* Experience Section */}
+<section className="experience">
+  <h2>Professional Experience</h2>
+
+  <h3>Data Analyst – Social Media Marketing</h3>
+  <p><strong>Company:</strong> Bairacorp Private Limited</p>
+  <p><strong>Work Mode:</strong> Hybrid</p>
+  <p><strong>Location:</strong> Chennai</p>
+
+  <ul>
+    <li>Analyzed social media performance data from platforms like Facebook, Instagram, LinkedIn, and YouTube.</li>
+    <li>Prepared weekly and monthly analytics reports.</li>
+    <li>Identified audience behavior and engagement trends.</li>
+    <li>Supported marketing teams with data-driven insights.</li>
+    <li>Worked with dashboards and analytics tools.</li>
+  </ul>
+</section>
   
     </div>
   );

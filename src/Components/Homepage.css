@@ -59,7 +59,7 @@
 
 /* Education section container */
 .education {
-  background: #fff8f2; /* light cream background */
+  background: #ffffff; /* light cream background */
   border-left: 4px solid #004aad; /* blue accent bar on left */
   padding: 16px; /* space inside the box */
   border-radius: 8px; /* rounded corners */
@@ -156,4 +156,50 @@
 .strength li:hover {
   transform: translateX(5px); /* slide effect */
   background: #e9f1ff; /* light hover background */
+}
+/* ===============================
+   Experience Section Styling
+   =============================== */
+
+.experience {
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  padding: 18px;
+  border-radius: 10px;
+  border-left: 4px solid #004aad;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.06);
+  margin-bottom: 24px;
+}
+
+.experience h2 {
+  color: #004aad;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #004aad;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.experience h3 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.experience ul {
+  list-style: none;
+  padding: 0;
+}
+
+.experience li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+  background: #f4f7fb;
+  padding: 10px;
+  border-left: 4px solid #004aad;
+  border-radius: 6px;
+  transition: transform 0.18s ease, background 0.18s ease;
+}
+
+.experience li:hover {
+  transform: translateX(5px);
+  background: #e9f1ff;
 }
