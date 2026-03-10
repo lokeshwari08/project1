@@ -21,14 +21,14 @@ function Homepage() {
       </header>
 
       {/* 7) Intro paragraph: my personal summary */}
-      <p className="intro">
-        My name is <strong>Lokeshwari M</strong>.<br />
-        I am a <strong>Fresher</strong> and ready to work.<br />
-        I am  intersted to work in any fields like <strong>Designer or Developer or Tester</strong>.<br />
-        I completed <strong>B.Sc. Computer Science</strong> at Chellammal Women's College, Guindy.<br />
-        I completed <strong>Software Testing</strong> course at Besant Technologies.<br />
-        I have strong knowledge in the following areas:
-      </p>
+     <p className="intro">
+  My name is <strong>Lokeshwari M</strong>.<br />
+  I am a <strong>Software Testing Professional</strong> currently working as a <strong>Data Analyst</strong>.<br />
+  I am interested to work in fields like <strong>Designer, Developer, or Tester</strong>.<br />
+  I completed <strong>B.Sc. Computer Science</strong> at Chellammal Women's College, Guindy.<br />
+  I completed <strong>Software Testing</strong> course at Besant Technologies.<br />
+  I have strong knowledge in the following areas:
+</p>
 
       {/* 8) Skills list. 'skills' class will style this as a grid of boxes in CSS */}
       <ul className="skills">
@@ -106,8 +106,8 @@ function Homepage() {
   <p><strong>Location:</strong> Chennai</p>
 
   <ul>
-    <li>Analyzed social media performance data from platforms like Facebook, Instagram, LinkedIn, and YouTube.</li>
-    <li>Prepared weekly and monthly analytics reports.</li>
+    <li>Analyzed social media performance data from platforms like Facebook, Instagram, LinkedIn.</li>
+    <li>Prepared Daily, weekly and monthly analytics reports.</li>
     <li>Identified audience behavior and engagement trends.</li>
     <li>Supported marketing teams with data-driven insights.</li>
     <li>Worked with dashboards and analytics tools.</li>
